@@ -167,4 +167,4 @@ And store JSON definitions in `data/json/`.
 1. [Krishna, Ranjay, et al. "Visual genome: Connecting language and vision using crowdsourced dense image annotations." *International Journal of Computer Vision* 123 (2017): 32-73.](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html)  
 2. [Sauer, Axel, Katja Schwarz, and Andreas Geiger. "Stylegan-xl: Scaling stylegan to large diverse datasets." *ACM SIGGRAPH 2022* conference proceedings. 2022.](https://github.com/autonomousvision/stylegan-xl)  
 3. [Sauer, Axel, et al. "Adversarial diffusion distillation." *European Conference on Computer Vision*. Springer, Cham, 2025.](https://stability.ai/research/adversarial-diffusion-distillation)
-4. [Team, Gemma, et al. "Gemma: Open models based on gemini research and technology." arXiv preprint arXiv:2403.08295 (2024).]([https://huggingface.co/papers/2403.08295](https://arxiv.org/abs/2403.08295))  
+4. [Team, Gemma, et al. "Gemma: Open models based on gemini research and technology." arXiv preprint arXiv:2403.08295 (2024).](https://arxiv.org/abs/2403.08295)  
