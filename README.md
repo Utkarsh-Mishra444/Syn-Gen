@@ -3,7 +3,7 @@
 
 # **Generative AI: Learning From Synthetic Data**
 
-A research project that evaluates the effectiveness of synthetic data in improving machine learning classifiers by generating over **90,000 images** for the CIFAR-10 dataset using **StyleGAN-XL** and **Stable Diffusion XL Turbo**. Advanced prompt engineering techniques, including clustering visual attributes and leveraging GEMMA 2B, were used to increase diversity and quality. **ResNet-34** models were trained on varying synthetic-to-real data ratios to uncover insights into the role of synthetic data in real-world machine learning.
+A research project that evaluates the effectiveness of synthetic data in improving machine learning classifiers by generating over **90,000 images** for the CIFAR-10 dataset using **StyleGAN-XL** and **Stable Diffusion XL Turbo**. Visual attributes were extracted from the Visual Genome dataset for enhanced visual descriptiveness of prompts. The attributes are clustered through their GloVe embeddings and sampled from different clusters for improved diversity. Further visual descriptiveness improved through GEMMA 2B language model.  **ResNet-34** models were trained on varying synthetic-to-real data ratios to uncover insights into the role of synthetic data in real-world machine learning.
 
 ---
 
@@ -167,4 +167,5 @@ And store JSON definitions in `data/json/`.
 1. [Krishna, Ranjay, et al. "Visual genome: Connecting language and vision using crowdsourced dense image annotations." *International Journal of Computer Vision* 123 (2017): 32-73.](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html)  
 2. [Sauer, Axel, Katja Schwarz, and Andreas Geiger. "Stylegan-xl: Scaling stylegan to large diverse datasets." *ACM SIGGRAPH 2022* conference proceedings. 2022.](https://github.com/autonomousvision/stylegan-xl)  
 3. [Sauer, Axel, et al. "Adversarial diffusion distillation." *European Conference on Computer Vision*. Springer, Cham, 2025.](https://stability.ai/research/adversarial-diffusion-distillation)
-4. [Team, Gemma, et al. "Gemma: Open models based on gemini research and technology." arXiv preprint arXiv:2403.08295 (2024).](https://arxiv.org/abs/2403.08295)  
+4. [Team, Gemma, et al. "Gemma: Open models based on gemini research and technology." arXiv preprint arXiv:2403.08295 (2024).](https://arxiv.org/abs/2403.08295)
+5. [Pennington, Jeffrey, Richard Socher, and Christopher D. Manning. "Glove: Global vectors for word representation." Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP). 2014.](https://nlp.stanford.edu/pubs/glove.pdf)  
